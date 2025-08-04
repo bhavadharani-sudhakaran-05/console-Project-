@@ -1,0 +1,9 @@
+=== Fitness Report ===
+User: bhava, Age: 25, Gender: female
+
+running    | Date: 2005-11-05 | Duration:  10 mins | Calories Burned: 100.00
+
+Total Calories Burned: 100.00
+Average Calories Burned per Activity: 100.00
+
+Thank you for using the Fitness Tracker!
