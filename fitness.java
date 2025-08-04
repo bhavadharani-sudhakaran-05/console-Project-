@@ -88,7 +88,7 @@ public class fitness {
             totalCalories += activities[i].caloriesBurned;
         }
 
-        // Show user and activity summary
+    
         System.out.println("\n=== Fitness Summary ===");
         user.showUserInfo();
         System.out.println("\nActivities:");
@@ -100,7 +100,7 @@ public class fitness {
         System.out.printf("\nTotal Calories Burned: %.2f%n", totalCalories);
         System.out.printf("Average Calories Burned per Activity: %.2f%n", avgCalories);
 
-        // Filter option
+      
         System.out.print("\nDo you want to filter by activity type? (yes/no): ");
         String filterChoice = sc.nextLine();
         if (filterChoice.equalsIgnoreCase("yes")) {
@@ -114,7 +114,7 @@ public class fitness {
             }
         }
 
-        // Save to file
+    
         String filename = "fitness_report_" + LocalDate.now() + ".txt";
         try (PrintWriter writer = new PrintWriter(
                 new OutputStreamWriter(new FileOutputStream(filename), StandardCharsets.UTF_8))) {
